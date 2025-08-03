@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name : nginx
+  labels:
+    purpose: demo
+spec:
+  container:
+  -name: nginx
+  image: nginx

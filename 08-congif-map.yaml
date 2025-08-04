@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+ name: pod-ConfigMap
+ labels:
+  purpose: config
+  env: dev
+data:
+ COURSE: "DEVOPS WITH AWS"
+ DURATION: "4 MTS"
+ 

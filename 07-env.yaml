@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: labels
   labels:
-    project: roboshop
+    project:  demostrate-envars
 spec:
    containers:
      - name: nginx
        image: nginx
-   env:
+       env:
        - name: "course"
          value: "KUBERENETS"
        - name: "trainer" 

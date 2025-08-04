@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: labels
+  labels:
+    project: roboshop
+    component: mysql
+    env: dev
+    tier: backend
+  annotations:
+    description: "this is an annotations onne"
+    
+spec:
+   containers:
+     - name: nginx
+       image: nginx

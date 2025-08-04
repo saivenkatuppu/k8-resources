@@ -7,8 +7,8 @@ metadata:
      purpose: multi-container-demo
 spec:
   containers:
-  - name: mysql
-    image: mysql
+  - name: nginx
+    image: nginx
   - name: almalinux
     image: almalinux
     command: ["sleep","1000"]
